@@ -1,4 +1,4 @@
-/* Стили для шапки */
+/* Стиль для шапки */
 .header {
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
@@ -24,13 +24,6 @@
     list-style: none;
 }
 
-.header__link {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 23px;
-}
-
 .header__link_active {
     text-decoration: none;
 }
@@ -44,7 +37,7 @@
     max-height: 105px;
 }
 
-/* Стили для адреса */
+/* Стиль для адресов */
 .address {
     align-self: center;
     max-width: 240px;
@@ -56,12 +49,7 @@
     margin-left: auto;
 }
 
-.phone {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Стили для секции cover */
+/* Стиль для секции "Оно тебе надо" */
 .cover {
     position: relative;
     padding: 165px 50px 51px;
@@ -137,7 +125,7 @@
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: Raleway, Arial, sans-serif;
+    font-family: Raleway, sans-serif;
 }
 
 .bet-button:hover {
@@ -145,7 +133,7 @@
     color: #000000;
 }
 
-/* Стили для секции лотов */
+/* Стили для секции с карточками */
 .lots {
     padding: 178px 24px 146px;
 }
@@ -173,7 +161,7 @@
     min-height: 563px;
 }
 
-.card__link {
+.card-link {
     text-decoration: none;
 }
 
@@ -221,7 +209,7 @@
     font-weight: 400;
 }
 
-/* Стили для секции "Об аукционе" */
+/* Стили для секции "Аукцион" */
 .about {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -305,7 +293,7 @@
     line-height: 23px;
 }
 
-.footer__link_active {
+.footer__menu-link_active {
     text-decoration: none;
 }
 
